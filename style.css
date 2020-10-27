@@ -1,0 +1,81 @@
+
+
+/* CSS para la pantalla de Inicio de la Tarjeta */
+.inTarjeta, .bienvenidos, .Opciones{
+    background-color: rgb(78, 74, 74);
+    color: rgb(204, 203, 203);
+   height: 700px;
+   width:700px;
+   margin-top: 100;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.inTarjeta h1{
+padding: 100px 0 100px 120px;
+
+}
+#imagenTarjeta{
+    height: 150px;
+    width: 150px;
+    margin-left: 450px;
+  
+}
+
+.inTarjeta h2{
+    margin-left: 20px;
+}
+.inTarjeta span{
+    font-weight: 700;
+    color: white;
+}
+.my-btn-Tarjeta{
+    margin-left: 470px;
+    margin-top: 50px;
+    height: 90px;
+}
+
+/*Termina CSS de Pantalla de Incio Tarjeta de Credito*/
+
+
+/*Inicia pantalla de bienvenidos NIP*/
+.bienvenidos h1, .Opciones h1{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.textNip{
+    font-size: xx-large;
+    margin: 200px 0 0 80px;
+}
+.myNip{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.inputNip{
+    height:40px;
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.botonesNip, .botonesOpciones{
+   
+   margin-top: 100px;
+   
+   display:flex;
+   padding:10px;
+  
+   justify-content: space-around;
+}
+/*Termina pantalla de bienvenidos NIP*/
+
+/*Inicio Pagina de Opciones*/
+.Opciones h2{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+
+/*Termina Pagina de Opciones*/
+
