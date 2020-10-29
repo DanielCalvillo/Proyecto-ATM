@@ -66,7 +66,7 @@ padding: 100px 0 100px 120px;
     margin-left: 300px;
     margin-top: 20px;
 }
-.botonesNip, .botonesOpciones{
+.botonesOpciones{
    
    margin-top: 100px;
    
@@ -91,3 +91,27 @@ padding: 100px 0 100px 120px;
 
 /*Termina Pagina de Opciones*/
 
+.confirmarContainer{
+    display: block;
+  
+    
+}
+.confirmar{
+    margin-top: 15px;
+    margin-left: 250px;
+    background-color: rgb(9, 158, .29);
+    border-color:rgb(9, 158, .29);
+}
+
+
+.cancelar{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.botonesNip{
+   
+    margin-top: 60px;
+    margin-left: 500px;
+    visibility:hidden;
+    justify-content: space-around;
+ }

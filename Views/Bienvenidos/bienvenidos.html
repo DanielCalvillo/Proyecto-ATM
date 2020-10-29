@@ -30,17 +30,44 @@
             class="textNip"
         >
             Proteja y tecleé su número confidencial
+        
         </label>
-        <input 
-            type="text" 
-            class="form-control inputNip" 
-            placeholder="" 
-            aria-label="Username" 
-            aria-describedby="addon-wrapping"
-        >
+        <div class="confirmarContainer">
+            <form id="myForm">
+               
+                <input 
+                    id="limpiar"
+                    type="text"
+                    maxlength="4"
+                    class="form-control inputNip" 
+                    placeholder="" 
+                    aria-label="Username" 
+                    aria-describedby="addon-wrapping"
+                >   
+            </form>
+            <button                 
+            type="button"
+            class="btn btn-danger confirmar"
+            onclick="myConfirmar()">
+                Confirmar
+            </button>
+            <button 
+               
+                type="button"
+                class="btn btn-danger cancelar"
+                onclick="myReset()">
+                Cancelar
+            </button>
+        </div>
         <div class="botonesNip">
-            <button type="button" class="btn btn-danger">Cancelar</button>
-             <button type="button" class="btn btn-success" onclick="paginaOpciones()">Continuar</button>
+          
+             <button 
+                id="myContinuar"
+                type="button" 
+                class="btn btn-success" 
+                onclick="paginaOpciones()">
+                    Continuar
+            </button>
         </div>
     </div>
     
