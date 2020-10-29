@@ -16,31 +16,38 @@
 <div class="grad">
  <div class="bienvenidos">
      <div class="flexbox-salir">
-        <h1>Banpractico</h1>
-        <button 
-            type="button" 
-            class="btn btn-secondary" 
-            onclick="paginaFinal()"
-        >
-            Salir
-        </button>
+         <div class="title-container">
+             <h1>Banpractico</h1>
+             <button type="button" class="close my-close" aria-label="Close" onclick="paginaFinal()">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+         </div>
     </div>
     <div class="input-group flex-nowrap myNip"></div>
-        <label 
+        <h2 
             class="textNip"
         >
             Proteja y tecleé su número confidencial
-        </label>
+        </h2>
         <input 
             type="text" 
             class="form-control inputNip" 
-            placeholder="" 
+            placeholder="Your NIP" 
             aria-label="Username" 
             aria-describedby="addon-wrapping"
+            id="inputNip"
+            onkeyup="actualizarNip()"
         >
         <div class="botonesNip">
             <button type="button" class="btn btn-danger">Cancelar</button>
-             <button type="button" class="btn btn-success" onclick="paginaOpciones()">Continuar</button>
+            <button 
+                id="buttonContinuar"
+                type="button" 
+                class="btn btn-success" 
+                onclick="logUser()" 
+            >
+                Continuar
+            </button>
         </div>
     </div>
     

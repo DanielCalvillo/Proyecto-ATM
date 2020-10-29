@@ -1,93 +1,56 @@
-
 .grad {
-    background-image: linear-gradient(#006EFF, #0D0242);
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-  }
-/* CSS para la pantalla de Inicio de la Tarjeta */
-.inTarjeta, .bienvenidos, .Opciones{
-   margin-top: 70px; 
-   border-radius: 25px;
-background: rgba(0, 0, 0, 0.274);
-    color: white;
-   height: 650px;
-   width:650px;
-  
-   
-
-}
-.inTarjeta h1{
-padding: 100px 0 100px 120px;
-
-}
-#imagenTarjeta{
-    height: 150px;
-    width: 150px;
-    margin-left: 450px;
-  
+  background-image: linear-gradient(#006eff, #0d0242);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
 }
 
-.inTarjeta h2{
-    margin-left: 20px;
-}
-.inTarjeta span{
-    font-weight: 700;
-    color: white;
-}
-.my-btn-Tarjeta{
-    margin-left: 410px;
-    margin-top: 20px;
-    height: 90px;
-}
-
-/*Termina CSS de Pantalla de Incio Tarjeta de Credito*/
-
-
-/*Inicia pantalla de bienvenidos NIP*/
-.bienvenidos h1, .Opciones h1{
-    padding-top: 20px;
-    margin-left: 20px;
+.bienvenidos {
+  margin: auto 0;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.274);
+  color: white;
+  height: 40rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.textNip{
-    font-size: xx-large;
-    margin: 200px 0 0 80px;
-}
-.myNip{
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.inputNip{
-    height:40px;
-    width: 100px;
-    margin-left: 300px;
-    margin-top: 20px;
-}
-.botonesNip, .botonesOpciones{
-   
-   margin-top: 100px;
-   
-   display:flex;
-   padding:10px;
-  
-   justify-content: space-around;
-}
-/*Termina pantalla de bienvenidos NIP*/
-
-/*Inicio Pagina de Opciones*/
-.Opciones h2{
-    margin-top: 180px;
-    margin-left: 50px;
-}
-.flexbox-salir{
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    padding-top: 20px;
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  margin-left: 2rem;
 }
 
-/*Termina Pagina de Opciones*/
+.my-close {
+  color: white;
+  margin-right: 2.5rem;
+  position: relative;
+  bottom: 2.2rem;
+  border: none;
+  text-decoration: none;
+}
 
+.textNip {
+  position: relative;
+  bottom: 7rem;
+}
+
+.inputNip {
+  width: 15rem;
+  height: 3rem;
+  position: relative;
+  bottom: 8rem;
+}
+
+.botonesNip {
+  position: relative;
+  bottom: 8rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
